@@ -1,171 +1,91 @@
 # 🧠 DICOM Viewer — Advanced Web-Based Radiology Workstation
 
-A modern, high-performance **web-based DICOM viewer** designed to replicate key functionalities of professional radiology workstations.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![Medical Imaging](https://img.shields.io/badge/Domain-Medical%20Imaging-red)](https://github.com/YosraSaid01/dicom-viewer-app)
 
-⚡ Built in **24 hours using advanced prompt engineering**, this project demonstrates strong capabilities in:
-- Medical image computing
-- Volumetric reconstruction (MPR)
-- Frontend engineering for scientific applications
-- Rapid prototyping of complex systems
+A modern, high-performance **web-based DICOM viewer** designed to replicate the critical functionalities of professional radiology workstations. 
+
+> ⚡ **Project Highlight:** Built in **24 hours** using advanced prompt engineering, this project demonstrates rapid prototyping of complex medical image computing and volumetric reconstruction (MPR) systems.
 
 ---
 
 ## 🚀 Key Features
 
 ### 🩻 DICOM Loading & Visualization
-- Upload **single DICOM files** or **entire studies (folders)**
-- Automatic organization by **Patient → Study → Series**
-- Smooth slice navigation for volumetric datasets
-- Browser-based rendering (no external software required)
-
----
+* **Universal Upload:** Support for single `.dcm` files or entire folder studies.
+* **Smart Organization:** Automatic hierarchical sorting by **Patient → Study → Series**.
+* **Native Rendering:** 100% browser-based canvas rendering; no external plugins required.
 
 ### 🧭 True Multi-Planar Reconstruction (MPR)
-- Reconstruction of a **3D volume from axial slices**
-- Automatic generation of:
-  - Axial
-  - Coronal
-  - Sagittal views
-- **Synchronized navigation** using an interactive crosshair
-- Preserves correct geometry using **voxel spacing (no distortion)**
+* **3D Synthesis:** Reconstructs full volumes from 2D axial stacks.
+* **Orthogonal Views:** Simultaneous display of **Axial, Coronal, and Sagittal** planes.
+* **Linked Navigation:** Synchronized crosshairs for precise anatomical localization.
+* **Geometric Integrity:** Corrects for voxel spacing to prevent image distortion.
 
----
-
-### 🧊 Optional 3D Reconstruction
-- Generate a **3D view on demand**
-- Avoids unnecessary computation at startup
-- Designed for performance-conscious workflows
-
----
-
-### 🎚️ Windowing / Contrast Control
-- Presets for common visualization:
-  - Bone
-  - Lung
-  - Soft Tissue
-  - Brain
-  - Abdomen
-- Manual **window/level adjustment** for fine control
-
----
-
-### 📏 Measurement Tools
-- Distance measurement
-- Angle measurement
-- Interactive overlays directly on images
-- Physically accurate scaling using pixel spacing
-
----
-
-### 🎞️ Smooth Navigation & Cine
-- Interactive slice scrolling
-- Cine playback for image stacks
-- Optimized **canvas-based rendering**
-
----
-
-### 👥 Multi-Study Management
-- Load multiple patients and series
-- Switch between datasets easily
-- Remove unwanted series dynamically
-
----
-
-### 🧾 DICOM Metadata & Tag Explorer
-- Display key metadata:
-  - Patient information
-  - Study / Series descriptions
-  - Acquisition parameters
-- **Searchable DICOM tag panel**
-- Structured metadata visualization
+### 🎚️ Clinical Tools & Analysis
+* **Windowing Presets:** Quick-toggle for Bone, Lung, Soft Tissue, Brain, and Abdomen.
+* **Precision Tools:** Distance and angle measurements with physically accurate scaling.
+* **Cine Playback:** Smooth interactive scrolling and automated stack playback.
+* **Metadata Explorer:** Searchable DICOM tag panel for acquisition parameters.
 
 ---
 
 ## 🛠️ Technical Architecture
 
-- **Frontend:** React + HTML5 Canvas  
-- **Core Components:**
-  - Custom DICOM parsing pipeline
-  - 3D volume reconstruction from 2D slices
-  - Orthogonal slice extraction (MPR)
-  - Voxel spacing handling for accurate aspect ratios  
+This workstation is built on a custom-engineered pipeline designed for performance and accuracy:
 
-- **Interaction System:**
-  - Crosshair navigation
-  - Measurement overlays
-
-- **Performance Optimization:**
-  - Efficient rendering pipeline
-  - On-demand heavy computations (3D)
+* **Core Engine:** React + HTML5 Canvas for high-frequency UI updates.
+* **Processing Pipeline:** Custom DICOM parsing logic and orthogonal slice extraction.
+* **Optimization:** On-demand 3D reconstruction and lazy-loading of heavy volumetric data to maintain a responsive UI.
 
 ---
 
-## 📸 What This Project Demonstrates
+## 📸 Project Impact
 
-✔ End-to-end **medical imaging application development**  
-✔ Strong understanding of **DICOM and volumetric data**  
-✔ Implementation of **multi-planar reconstruction (MPR)**  
-✔ Design of **interactive scientific visualization tools**  
-✔ Clean and intuitive **radiology-style UI/UX**  
-✔ Rapid prototyping using **AI-assisted engineering**
+This project serves as a comprehensive demonstration of:
+1.  **End-to-End Development:** From raw binary DICOM data to a functional UI.
+2.  **Scientific Visualization:** Implementing complex MPR algorithms.
+3.  **Performance Mindset:** Handling high-dimensional data efficiently in a browser environment.
+4.  **UX/UI Design:** Creating an intuitive interface tailored for radiology workflows.
 
 ---
 
-## 🚀 Getting Started
+## 💻 Getting Started
+
+Get the workstation running locally in seconds:
 
 ```bash
-git clone https://github.com/YosraSaid01/dicom-viewer-app.git
+# Clone the repository
+git clone [https://github.com/YosraSaid01/dicom-viewer-app.git](https://github.com/YosraSaid01/dicom-viewer-app.git)
+
+# Enter the directory
 cd dicom-viewer-app
+
+# Install dependencies
 npm install
+
+# Launch the application
 npm start
-Then open:
 
-👉 http://localhost:3000
+Once started, navigate to: http://localhost:3000
 
----
+⚠️ Important Considerations
+Technical Use Only: This tool is intended for educational and technical demonstration.
 
-## ⚠️ Limitations
+Clinical Disclaimer: ❌ Not for clinical diagnosis.
 
-- Limited support for some **compressed DICOM transfer syntaxes**
-- 3D reconstruction can be **computationally intensive** for large datasets
-- Intended for **technical / educational use only**
-- ❌ Not for clinical diagnosis
+Performance: 3D reconstruction performance is dependent on client-side hardware and dataset size.
 
----
+👩‍💻 Author & Visionary
+Yosra Said Biomedical Engineer — Medical Imaging, AI & Computational Imaging
 
-## 👩‍💻 Author
+GitHub: @YosraSaid01
 
-**Yosra Said**  
-Biomedical Engineer — Medical Imaging, AI & Computational Imaging  
+LinkedIn: [Your Profile Link Here]
 
-- GitHub: https://github.com/YosraSaid01  
-- LinkedIn: *(add your link here)*  
+This project sits at the intersection of Biomedical Engineering, Computer Vision, and Frontend Architecture, proving that complex medical systems can be prototyped rapidly without sacrificing scientific rigor.
 
----
-
-## ⭐ About This Project
-
-Developed in **24 hours**, this project sits at the intersection of:
-
-- Biomedical Engineering  
-- Medical Image Computing  
-- Computer Vision & AI  
-- Frontend Engineering  
-- Human-Computer Interaction  
-
-💡 This project demonstrates the ability to transform **complex medical imaging concepts into a functional, high-performance software system**.
-
----
-
-## 🔥 Why This Matters (for Recruiters)
-
-This is not just a demo — it highlights:
-
-- Understanding of **real radiology workflows**
-- Ability to handle **high-dimensional medical data**
-- Strong **engineering + performance mindset**
-- Experience bridging **AI, medical imaging, and software development**
-
----
-
-⭐ If you find this project interesting, feel free to star the repository!
+<p align="center">
+<b>If you find this project useful, please consider giving it a ⭐!</b>
+</p>
