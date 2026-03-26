@@ -82,7 +82,7 @@ cd dicom-viewer-app
 npm install
 
 # 3. Run the application
-npm start
+npm start ```
 
 Then open:
 
