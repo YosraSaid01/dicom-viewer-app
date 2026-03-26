@@ -105,5 +105,5 @@ Biomedical Engineer — Medical Imaging, AI & Computational Imaging
 Platform	Link
 GitHub	https://github.com/YosraSaid01
 
-LinkedIn	(add your link here)
+LinkedIn	www.linkedin.com/in/yosra-said-925131257
 <p align="center"> <b>⭐ If you find this project useful, consider giving it a star!</b> </p> ```
