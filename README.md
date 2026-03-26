@@ -70,22 +70,27 @@ npm start
 
 Once started, navigate to: http://localhost:3000
 
-⚠️ Important Considerations
-Technical Use Only: This tool is intended for educational and technical demonstration.
+## ⚠️ Important Considerations
 
-Clinical Disclaimer: ❌ Not for clinical diagnosis.
+> [!IMPORTANT]
+> **Technical Use Only:** This tool is intended for **educational and technical demonstration** purposes.
+>
+> ❌ **Clinical Disclaimer:** Not for clinical diagnosis.
+>
+> ⚡ **Performance:** 3D reconstruction performance is dependent on client-side hardware and dataset size.
 
-Performance: 3D reconstruction performance is dependent on client-side hardware and dataset size.
+---
 
-👩‍💻 Author & Visionary
-Yosra Said Biomedical Engineer — Medical Imaging, AI & Computational Imaging
+## 👩‍💻 Author & Visionary
 
-GitHub: @YosraSaid01
+### **Yosra Said**
+*Biomedical Engineer — Medical Imaging, AI & Computational Imaging*
 
-LinkedIn: [Your Profile Link Here]
+* **GitHub:** [@YosraSaid01](https://github.com/YosraSaid01)
+* **LinkedIn:** [Your Profile Link Here]
 
-This project sits at the intersection of Biomedical Engineering, Computer Vision, and Frontend Architecture, proving that complex medical systems can be prototyped rapidly without sacrificing scientific rigor.
+This project sits at the intersection of **Biomedical Engineering**, **Computer Vision**, and **Frontend Architecture**, proving that complex medical systems can be prototyped rapidly without sacrificing scientific rigor.
 
 <p align="center">
-<b>If you find this project useful, please consider giving it a ⭐!</b>
+  <b>If you find this project useful, please consider giving it a ⭐!</b>
 </p>
